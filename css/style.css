@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	padding: 30px;
+	font-family: 'Lato', sans-serif;
+}
+/* ------------------ */
+
+body {
+	background: rgba(253, 245, 230, 0.7);
+	
+}
+
+.block {
+    background-color: rgba(123, 230, 230, 0.8);
+    max-width: 800px;
+    margin: 0px auto;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+	box-shadow: 5px 5px 15px rgb(75, 170, 170);
+}
+
+.block > span {
+    color: rgb(233, 17, 17);
+    font-weight: 700;
+	float: left;
+}
+
+.article {
+	background-color: #eee;
+    max-width: 800px;
+	margin: 0px auto;
+	padding: 15px;
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 50px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+
+}
+
+.article__image {
+	width: 350px;
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+.item {
+	clear: both;
+}
+
+.border__blocks {
+	margin: 0px auto;
+	max-width: 900px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 50px;
+}
+
+.block-1, .block-2, .block-3 {
+	display: inline-block;
+	max-width: 250px;
+	text-align: left;
+	margin: 15px;
+	padding: 10px;
+	background-color: aquamarine;
+	vertical-align: top;
+}
+
+.block-1 {
+	border: 5px dashed red;
+}
+
+.block-2 {
+	border: 5px solid #000;
+}
+
+.block-3 {
+	border: 5px dotted blueviolet;
+}
+
+.radius__blocks {
+	max-width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 50px;
+}
+
+.rblock-1, .rblock-2, .rblock-3 {
+	display: inline-block;
+	max-width: 250px;
+	text-align: left;
+	margin: 15px;
+	padding: 10px;
+	background-color: rgb(80, 220, 255);
+	vertical-align: top;
+}
+
+.rblock-1 {
+	border-radius: 10%;
+	border: 5px dashed red;
+}
+.rblock-2 {
+	border-radius: 30px 15px 30px 15px;
+	border: 5px solid rgb(233, 217, 1);
+}
+.rblock-3 {
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px dotted blueviolet;
+
+}
+
+.block__scroll {
+	background-color: rgb(80, 255, 197);
+	margin: 0px auto;
+	overflow: hidden;
+	width: 400px;
+	font-size: 20px;
+	line-height: 25px;
+	border-radius: 10%;
+	border: 10px double rgb(255, 38, 38);
+	margin-bottom: 50px;
+}
+
+.block__scroll-inner {
+	margin: 0px -30px 0px 0px;
+	padding: 15px 40px 15px 15px;
+	height: 400px;
+	overflow: auto;	
+}
+
+.block__scroll span {
+	font-weight: 700;
+}
+
+.block__outline {
+	max-width: 800px;
+	margin: 50px auto 50px;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 15px;
+	outline: 5px solid rgba(255, 0, 0);
+	box-shadow: 15px 15px 25px rgb(255, 238, 0), -15px -15px 25px rgb(255, 238, 0);
+}
+
+.block__outline > span {
+	font-weight: 700;
+}
+
+.image {
+	margin: 0px auto;
+	max-width: 800px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: underline;
+	letter-spacing: 0.5px;
+	color: rgba(0, 0, 0, 0.75);
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+}
+
+.image__radius {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin: 30px 0px 50px 0px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.block__opacity {
+	max-width: 800px;
+	margin: 0px auto 50px;
+	border: 5px solid rgb(95, 95, 95);
+	padding: 15px;
+	
+}
+
+.block__opacity > span {
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: 700;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.opacity__text {
+	font-size: 20px;
+	line-height: 25px;
+	opacity: 0.5;
+	margin: 15px;
+}
+
+.opacity__link {
+	display: block;
+	text-align: end;
+	font-size: 20px;
+	opacity: 0;
+}
+
+.block__visibility {
+	max-width: 800px;
+	margin: 0px auto;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 15px;
+	box-shadow: 5px 5px 5px gainsboro;
+}
+
+.block__visibility > span {
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.274);
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+
+.visibility__text-2 {
+	visibility: hidden;
+}
+
+.visibility__text-1, .visibility__text-2, .visibility__text-3 {
+	text-indent: 10px;
+	color: orangered;
+}
